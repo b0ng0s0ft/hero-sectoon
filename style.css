@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.nav-bg-color{
+    background-color: aqua;
+}
+
+.form-shadow:focus{
+    box-shadow: none;
+}
+
+ul>li>a{
+    color: white!important;
+    font-weight: bold!important;
+    margin: 0 15px;
+}
